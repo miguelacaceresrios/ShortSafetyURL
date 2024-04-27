@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHORT & SAFETY URL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Botón de retorno al inicio -->
+    <button onclick="topFunction()" id="scrollToTopBtn" title="Volver arriba">Subir</button>
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <!-- Título "Short & Safety URL" -->
+    <h1 class="titulo">SHORT & SAFETY URL</h1>
+
+    <!-- Formulario de acortamiento de URL -->
+    <div class="url-form">
+        <input type="text" id="longUrlInput" placeholder="Ingresa una URL larga">
+        <button onclick="shortenURL()">Acortar</button>
+        <div id="shortenedUrl"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
